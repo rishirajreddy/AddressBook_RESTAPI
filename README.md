@@ -12,7 +12,7 @@ Clone the git repository / download and extract the .zip file. Navigate into the
 `npm install` . It will install all the dependencies listed in package.json.
 
 ### How to run the code:
-* Navigate into the root of the application and type `nodemon server.js` to start the server. The server can be accessed at `http://localhost:3000`, 
+* Navigate into the root of the application and type `nodemon ./src/server.js` to start the server. The server can be accessed at `http://localhost:3000`, 
 
 ### REST API URLs
 ##### Auth
