@@ -19,6 +19,11 @@ router.post("/add",
 router.post("/bulk", 
             checkToken.checkToken, 
             contactControl.insertBulkContacts);
+//Get matched contacts
+router.post("/",
+            checkToken.checkToken,
+            contactControl.fetchMatchingContact        
+);
 //Update Contact
 router.put("/:id", 
             checkToken.checkToken,
@@ -27,10 +32,6 @@ router.put("/:id",
 router.delete("/:id", 
                 checkToken.checkToken,
                 contactControl.deleteContact);
-//Get matched contacts
-router.post("/",
-            checkToken.checkToken,
-            contactControl.fetchMatchingContact        
-);
+
 
 module.exports = router;
