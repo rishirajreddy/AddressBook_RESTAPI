@@ -57,7 +57,7 @@ Clone the git repository / download and extract the .zip file. Navigate into the
 	}
   ]
 ```
-*POST (get a matching contact using firstName, lastName or contactNo)`http://localhost:3000/contact the request body looks like:
+* POST (get a matching contact using firstName, lastName or contactNo)`http://localhost:3000/contact the request body looks like:
 ```json
 {
   "firstName":"John"
